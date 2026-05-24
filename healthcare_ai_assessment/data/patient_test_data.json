@@ -1,0 +1,48 @@
+{
+  "valid_patients": [
+    {
+      "patient_id": "P1001",
+      "name": "John Doe",
+      "age": 67,
+      "gender": "Male",
+      "symptoms": "Chest pain and dizziness",
+      "blood_pressure": "160/100",
+      "heart_rate": 120,
+      "risk_expected": "High"
+    },
+    {
+      "patient_id": "P1002",
+      "name": "Sarah Lee",
+      "age": 32,
+      "gender": "Female",
+      "symptoms": "Mild headache",
+      "blood_pressure": "118/78",
+      "heart_rate": 74,
+      "risk_expected": "Low"
+    }
+  ],
+  "invalid_patients": [
+    {
+      "patient_id": null,
+      "name": "",
+      "age": "sixty",
+      "gender": "Male",
+      "symptoms": "",
+      "blood_pressure": "HIGH",
+      "heart_rate": "abc",
+      "risk_expected": "Validation Error"
+    }
+  ],
+  "edge_patients": [
+    {
+      "patient_id": "P9999",
+      "name": "Test Edge",
+      "age": 110,
+      "gender": "Male",
+      "symptoms": "I feel okay but sometimes cannot breathe properly at night",
+      "blood_pressure": "210/130",
+      "heart_rate": 150,
+      "risk_expected": "Critical"
+    }
+  ]
+}
